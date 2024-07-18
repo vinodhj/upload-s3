@@ -1,7 +1,7 @@
 // index.js
 const uploadFileToS3 = require("./upload");
 
-const filePath = "./images/test-image.png";
+const filePath = "./images/aws_s3.png";
 const key = `image/${Date.now()}.png`;
 
 async function main() {
