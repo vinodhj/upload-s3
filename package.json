@@ -8,7 +8,9 @@
     "upload": "node src/index.js",
     "download": "node src/download.js",
     "upload-from-url": "node src/uploadFromUrl.js",
-    "upload-excel": "node src/uploadExcel.js"
+    "upload-excel": "node src/uploadExcel.js",
+    "upload-json": "node src/uploadJsonFile.js",
+    "upload-json-to-csv": "node src/uploadJsonToCsv.js"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +22,7 @@
     "axios": "^1.7.2",
     "dotenv": "^16.4.5",
     "fs": "^0.0.1-security",
+    "json2csv": "^6.0.0-alpha.2",
     "path": "^0.12.7",
     "stream": "^0.0.3"
   }
