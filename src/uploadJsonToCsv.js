@@ -18,7 +18,7 @@ async function uploadJsonToCsv(filePath, key) {
 
     
   } catch (err) {
-    console.error("Error uploading Excel file:", err);
+    console.error("Error uploading file:", err);
     throw err;
   }
 }
